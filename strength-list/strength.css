@@ -4,8 +4,7 @@
   background-color: #000;
   border-radius: 10px;
   overflow: hidden;
-  border: 1px solid lightcoral;
-  transition: width 1s ease-in-out;
+  border: 1px solid lighthcoral;
 }
 .fill {
   height: 100%;
