@@ -5,16 +5,12 @@
   border-radius: 10px;
   overflow: hidden;
   border: 1px solid lightcoral;
+  transition: width 1s ease-in-out;
 }
-
-
 .fill {
-  background-color: orange;
   height: 100%;
+  background-color: orange;
   border-radius: 10px 0 0 10px;
-}
-
-
 }
 .fill1 {
   height: 100%;
@@ -57,3 +53,4 @@
 p{
   margin-top: 10px;
 }
+
