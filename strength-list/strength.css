@@ -6,40 +6,56 @@
   overflow: hidden;
   border: 1px solid lightcoral;
 }
+
+@keyframes fillProgress {
+  from { width: 0; }
+  to { width: var(--target-width); }
+}
+
 .fill {
-  height: 100%;
   background-color: orange;
-  border-radius: 10px 0 0 10px;
+  height: 100%;
+  border-radius: 10px;
+  animation: fillProgress 2s ease-out forwards;
+}
+
+
 }
 .fill1 {
   height: 100%;
   background-color: #ff4757;
   border-radius: 10px 0 0 10px;
+  animation: fillProgress 2s ease-out forwards;
 }
 .fill2 {
   height: 100%;
   background-color: forestgreen;
   border-radius: 10px 0 0 10px;
+  animation: fillProgress 2s ease-out forwards;
 }
 .fill3 {
   height: 100%;
   background-color: powderblue;
   border-radius: 10px 0 0 10px;
+  animation: fillProgress 2s ease-out forwards;
 }
 .fill4 {
   height: 100%;
   background-color: mediumpurple;
   border-radius: 10px 0 0 10px;
+  animation: fillProgress 2s ease-out forwards;
 }
 .fill5 {
   height: 100%;
   background-color: greenyellow;
   border-radius: 10px 0 0 10px;
+  animation: fillProgress 2s ease-out forwards;
 }
 .fill6 {
   height: 100%;
   background-color: lightgreen;
   border-radius: 10px 0 0 10px;
+  animation: fillProgress 2s ease-out forwards;
 }
 #back{
   width:100%;
