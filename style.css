@@ -1,0 +1,34 @@
+body{
+  background-color: black;
+  font-family: sans-serif;
+  line-height: 1.5;
+  padding: 20px;
+  color:lightgreen;
+}
+
+.donate{
+  width:100%;
+  height:100px;
+  background-color:lightgreen;
+  border-radius:20px;
+  font-size: 50px;
+}
+.strength{
+  width:100%;
+  height:100px;
+  background-color:lightgreen;
+  border-radius:20px;
+  font-size: 50px;
+  margin-top:13px;
+}
+.Hi{
+  font-size:100px;
+  text-shadow: 4px 4px 2px lightgreen;
+}
+
+.footerLine{
+  width:100%;
+  height:6px;
+  background-color:black;
+  margin-top:10px;
+}
