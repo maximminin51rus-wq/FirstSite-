@@ -4,11 +4,11 @@
   box-sizing: border-box;
 }
 body{
-  background-color: black;
+  background-color: powder;
   font-family: sans-serif;
   line-height: 1.5;
   padding: 20px;
-  color:lightgreen;
+  color:dodgerBlue;
 }
 @media (min-width: 768px) {
   body {
