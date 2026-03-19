@@ -32,3 +32,23 @@ body{
   background-color:black;
   margin-top:10px;
 }
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+body {
+  animation: fadeIn 0.8s ease-out;
+}
+
+button#back {
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+button#back:hover {
+  background-color: #222;
+  transform: scale(1.05);
+  box-shadow: 0 0 15px rgba(144, 238, 144, 0.4);
+}
